@@ -11,7 +11,8 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-if z != "e", "d", or "q":
+list = ["e", d"]
+if z
     print("Did not understand command, try again.")
 
 Enter e to encrypt, d to decrypt, or q to quit: z
