@@ -11,10 +11,15 @@ z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 message = input("Message: ")
 key = input("Key: ")
 
-if z != "q":
-    if z == "e":
-        print()
-    if z == "d":
-        print()
-    if z != "q" and z != "e" and z != "d":
-        print("Did not understand command, try again.")
+if z == "e":
+    associations.find(char)
+if z == "d":
+    print()
+if z != "q" and z != "e" and z != "d":
+    print("Did not understand command, try again.")
+if z== "q"
+    print("Goodbye!")
+
+associations.find("e")
+
+#associations[index]
