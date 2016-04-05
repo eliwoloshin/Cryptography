@@ -12,7 +12,7 @@ message = input("Message: ")
 key = input("Key: ")
 
 if z == "e":
-    associations.find(a)
+    associations.find(a) + key.find(a)
     if z == "d":
         print()
 
@@ -22,5 +22,4 @@ if z == "q":
     print("Goodbye!")
 
 #associations.find("e")
-
 #associations[index]
