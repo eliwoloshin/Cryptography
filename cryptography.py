@@ -10,16 +10,18 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 message = input("Message: ")
 key = input("Key: ")
+a = []
+a.append(message)
 
-if z == "e":
-    associations.find(a) + key.find(a)
-    if z == "d":
-        print()
 
-if z != "q" and z != "e" and z != "d":
-    print("Did not understand command, try again.")
-if z == "q":
-    print("Goodbye!")
+#if z == "e":
+ #   if z == "d":
+  #      print()
+
+##if z != "q" and z != "e" and z != "d":
+  #  print("Did not understand command, try again.")
+#if z == "q":
+ #   print("Goodbye!")
 
 #associations.find("e")
 #associations[index]
