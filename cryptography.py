@@ -21,10 +21,10 @@ while z !="q":
         for c in message:
             a.append(c)
         b=[]
-        for c in key:
-            b.append(c)
         g=len(message)*key
         key=g
+        for c in key:
+            b.append(c)
     if z == "e":
         c=[]
         tuples = zip(a, b)
