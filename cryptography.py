@@ -23,8 +23,6 @@ while z !="q":
         b=[]
         for c in key:
             b.append(c)
-        print(a)
-        print(b)
         g=len(message)*key
         key=g
     if z == "e":
@@ -40,7 +38,7 @@ while z !="q":
         print()
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
-    print("z is: ", z)
+
 if z == "q":
     print("Goodbye!")
 
