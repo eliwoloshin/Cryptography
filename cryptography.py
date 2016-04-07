@@ -14,18 +14,19 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 z=""
 while z !="q":
     z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-    message = input("Message: ")
-    key = input("Key: ")
-    a=[]
-    for c in message:
-        a.append(c)
-    b=[]
-    for c in key:
-        b.append(c)
-    print(a)
-    print(b)
-    g=len(message)*key
-    key=g
+    if z == "e" or z == "d":
+        message = input("Message: ")
+        key = input("Key: ")
+        a=[]
+        for c in message:
+            a.append(c)
+        b=[]
+        for c in key:
+            b.append(c)
+        print(a)
+        print(b)
+        g=len(message)*key
+        key=g
     if z == "e":
         c=[]
         tuples = zip(a, b)
@@ -39,7 +40,7 @@ while z !="q":
         print()
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
-    print(z)
+    print("z is: ", z)
 if z == "q":
     print("Goodbye!")
 
