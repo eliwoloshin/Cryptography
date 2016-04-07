@@ -9,8 +9,8 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
 
-while key.count <= message.count:
-    print()
+#while key.count <= message.count:
+    #print()
 
 z=""
 while z !="q":
