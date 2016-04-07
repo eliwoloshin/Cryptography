@@ -37,9 +37,9 @@ while z !="q":
         print(c)
     elif z == "d":
         print()
-    if z != "q" and z != "e" and z != "d":
+    elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
-    if z == "q":
+    elif z == "q":
         print("Goodbye!")
 
 
