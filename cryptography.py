@@ -39,12 +39,11 @@ while z !="q":
         print()
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
-    elif z == "q":
-        print("Goodbye!")
+if z == "q":
+    print("Goodbye!")
 
 
-
-associations.find("e")
-associations[index]
+#associations.find("e")
+#associations[index]
 
 
