@@ -18,11 +18,13 @@ while z !="q":
     message = input("Message: ")
     key = input("Key: ")
     a=[]
-    for c in z:
+    for c in message:
         a.append(c)
     b=[]
     for c in key:
         b.append(c)
+    print(a)
+    print(b)
     if z == "e":
         tuples = zip(a, b)
         print(list(tuples))
