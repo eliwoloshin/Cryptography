@@ -11,7 +11,6 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 
 #while key.count <= message.count:
     #print()
-
 z=""
 while z !="q":
     z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
@@ -26,8 +25,14 @@ while z !="q":
     print(a)
     print(b)
     if z == "e":
+        c=[]
         tuples = zip(a, b)
-        print(list(tuples))
+        for x in tuples:
+            n=associations.find(x[0])
+            m=associations.find(x[1])
+            e=m+n
+            c.append(associations[e])
+        print(c)
     elif z == "d":
         print()
     if z != "q" and z != "e" and z != "d":
