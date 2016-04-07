@@ -25,6 +25,7 @@ while z !="q":
     print(a)
     print(b)
     g=len(message)*key
+    key=g
     if z == "e":
         c=[]
         tuples = zip(a, b)
