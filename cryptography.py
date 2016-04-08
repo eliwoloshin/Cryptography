@@ -44,7 +44,7 @@ while z !="q":
         for x in tuples:
             n=associations.find(x[0])
             m=associations.find(x[1])
-            e=m-n
+            e=n-m
             f.append(associations[e])
             stringg = ''.join(str(e) for e in f)
         print(stringg)
