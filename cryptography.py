@@ -41,7 +41,7 @@ while z !="q":
             n=associations.find(x[0])
             m=associations.find(x[1])
             e=m-n
-            f.append(assocations[e])
+            f.append(associations[e])
         print(f)
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
