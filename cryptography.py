@@ -6,7 +6,7 @@ Assignment:
 Write and submit a program that encrypts and decrypts user data.
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
 """
-associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"*2
+associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 
 
 #while key.count <= message.count:
@@ -15,6 +15,7 @@ z=""
 while z !="q":
     z = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if z == "e" or z == "d":
+        associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
         message = input("Message: ")
         key = input("Key: ")
         a=[]
@@ -23,6 +24,8 @@ while z !="q":
         b=[]
         g=len(message)*key
         key=g
+        h=len(message)*associations
+        associations=h
         for c in key:
             b.append(c)
     if z == "e":
