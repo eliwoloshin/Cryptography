@@ -37,7 +37,7 @@ while z !="q":
             e=m+n
             c.append(associations[e])
             stringg = ''.join(str(e) for e in c)
-        print(c)
+        print(stringg)
     elif z == "d":
         f=[]
         tuples = zip(a, b)
@@ -47,7 +47,7 @@ while z !="q":
             e=m-n
             f.append(associations[e])
             stringg = ''.join(str(e) for e in f)
-        print(f)
+        print(stringg)
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
 
