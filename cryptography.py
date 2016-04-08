@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Eli Woloshin
-Credit: none
+Credit: Mr. Dennison, http://stackoverflow.com/questions/5618878/how-to-convert-list-to-string
 Assignment:
 Write and submit a program that encrypts and decrypts user data.
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
