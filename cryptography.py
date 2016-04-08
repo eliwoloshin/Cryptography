@@ -35,7 +35,14 @@ while z !="q":
             c.append(associations[e])
         print(c)
     elif z == "d":
-        print()
+        f=[]
+        tuples = zip(a, b)
+        for x in tuples:
+            n=associations.find(x[0])
+            m=associations.find(x[1])
+            e=m-n
+            f.append(assocations[e])
+        print(f)
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
 
