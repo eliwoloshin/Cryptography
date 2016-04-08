@@ -36,6 +36,7 @@ while z !="q":
             m=associations.find(x[1])
             e=m+n
             c.append(associations[e])
+            stringg = ''.join(str(e) for e in c)
         print(c)
     elif z == "d":
         f=[]
@@ -45,6 +46,7 @@ while z !="q":
             m=associations.find(x[1])
             e=m-n
             f.append(associations[e])
+            stringg = ''.join(str(e) for e in f)
         print(f)
     elif z != "q" and z != "e" and z != "d":
         print("Did not understand command, try again.")
